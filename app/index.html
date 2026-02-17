@@ -13,13 +13,31 @@
 						<select ng-model="options.region" required ng-options="region.value as region.name for region in regions"></select>
 					</td>
 				</tr>
+				<tr><td colspan="2"><br></td></tr>
+				<tr><td colspan="2"><strong>Retail Realms:</strong></td></tr>
 				<tr>
 					<td>{{strings.realm}}:<div class="server-status-icon"></div></td>
 					<td>
-						<select ng-model="options.realm" required ng-options="realm.slug as realm.name for realm in realms"></select>
+						<select ng-model="options.realm" ng-options="realm.slug as realm.name for realm in realms"><option value="">-- None --</option></select>
 					</td>
 				</tr>
-				<tr><td><br></td></tr>
+				<tr><td colspan="2"><br></td></tr>
+				<tr><td colspan="2"><strong>Classic Realms (1x):</strong></td></tr>
+				<tr>
+					<td>{{strings.realm}}:<div class="server-status-icon"></div></td>
+					<td>
+						<select ng-model="options.realmClassic" ng-options="realm.slug as realm.name for realm in realmsClassic"><option value="">-- None --</option></select>
+					</td>
+				</tr>
+				<tr><td colspan="2"><br></td></tr>
+				<tr><td colspan="2"><strong>Mists of Pandaria Classic:</strong></td></tr>
+				<tr>
+					<td>{{strings.realm}}:<div class="server-status-icon"></div></td>
+					<td>
+						<select ng-model="options.realmClassicMoP" ng-options="realm.slug as realm.name for realm in realmsClassicMoP"><option value="">-- None --</option></select>
+					</td>
+				</tr>
+				<tr><td colspan="2"><br></td></tr>
 				<tr>
 					<td>{{strings['realm-up']}}:</td>
 					<td>
