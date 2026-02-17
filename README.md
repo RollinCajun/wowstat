@@ -69,7 +69,7 @@ When Blizzard launches the official status page for "The Burning Crusade Classic
 Download the latest installer (`.exe`) from [Releases](../../releases) and run it. The app will be installed to Program Files and added to your Start menu.
 
 ### macOS
-Download the DMG from [Releases](../../releases), open it, and drag WoW Stat to Applications.
+macOS users will have to compile the code themselves to get their respected executable file. I do not own a mac so I can not provide that for you. Sorry.
 
 ---
 
