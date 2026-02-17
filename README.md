@@ -1,7 +1,5 @@
 # WoW Stat v4.0.0 - Multi-Realm Monitor
 
-![WoW Stat](http://wowst.at/logo.svg)
-
 **A modern World of Warcraft server status monitor for Windows and macOS**
 
 ## Overview
